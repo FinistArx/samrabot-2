@@ -39,11 +39,12 @@ header{
 	margin-right:10px; 
 	position:relative;
     display:block;
+	background-color: white ;
 }
 .nav li a{
     text-align:center ;
 	padding:2px;
-    color: blue;       
+    color: blue; 
 }
 .nav li a:hover{
     color: blue;
@@ -66,7 +67,7 @@ header{
 }
 
 .nav li:hover .vipad li a:hover{
-    background:white; 
+    background: white; 
 	padding-top:1px;
 	border: 1px solid black;
 	border-radius: 15px 15px 15px 15px ;
@@ -97,14 +98,16 @@ header{
 }
 
 .calc{
-	position:relative; center ;
-	border-spacing: 5px 10px; 
-	background-color: white;
 	padding-right:380px;
 	padding-left:380px;
+	padding-top: 80px;
+	padding-bottom: 30px;
 	border-radius: 15px 15px 15px 15px;
+	background-color: white ;
 }
-
+.but{
+	width: 100% ; 
+}
 footer{
 	text-align: center ;
 	background-color: white;
