@@ -2,22 +2,23 @@
 h1 {
 	margin-top: 65px;
 	float: left ;
-	text-align: center ;
 	background-color: white;
 }
 
 body{
-	margin-left: 200px ;
-	margin-right: 200px;
-	margin-top: 50px;
+	margin: 0 auto ;
+
 	margin-bottom: 600px ;
+	min-width: 700px ;
+	width : 800px ;
 	background-color: grey;
 	border-radius: 20px 20px 20px 20px;
+	overflow: auto;
 }
 header{
 	clear: left ;
 	white-space:nowrap;
-	text-align:center ;
+	position:relative;
 	background-color: white;
 	border-radius: 20px 20px 20px 20px;
 }
@@ -26,57 +27,62 @@ header{
 	background-color: white;
 	border-radius: 20px;
 }
+
 .nav{
 	clear: left ;
-	position: relative; left:30% ;
-	white-space:nowrap;
+	width:100%;
 	position: relative;
-	text-align:center ;
+	left:300px ;
 	background-color: white;
+	text-align: color blue;
+	white-space:nowrap;
 }
 .nav li{
     float:left;
+	position: relative;
 	margin-right:10px; 
-	position:relative;
-    display:block;
+    display: block;
 	background-color: white ;
+	right: 30px;
 }
 .nav li a{
-    text-align:center ;
-	padding:2px;
-    color: blue; 
+	color: blue;
+	background-color: white ;
+}
+.nav ul.vipad li a{ 
+	color: blue;
+	padding:0px;
 }
 .nav li a:hover{
-    color: blue;
+	color: blue;
+	position: relative;
     background-color: white;
-	border-radius: 5px 5px 5px 5px;
-} 
+}
 
 .nav ul{
-    list-style:none;
     position:absolute;
     left:-9999px; 
+	color: white;
+	padding-top: 5px;
+	background-color: white;
 }
 
 .nav li:hover ul{ 
-    left:0; 
-    opacity:1;
-}
-.nav li:hover a{
-    background:white;
+	position: absolute; 
+	left: 0; 
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px ;
+	right: 30px;
+	display: block;
 }
 
-.nav li:hover .vipad li a:hover{
-    background: white; 
-	padding-top:1px;
-	border: 1px solid black;
-	border-radius: 15px 15px 15px 15px ;
-}
 .centr2{
 	text-align: justify ;
 	background-color: white;
 	margin-top: 0px; 
-	margin-bottom: 0px ; 
+	margin-bottom: 0px ;
+	padding-top: 20px;
+	padding-bottom: 20px;	
 	border-radius: 15px 15px 15px 15px ;
 }
 .text1{	
@@ -87,8 +93,8 @@ header{
 }
 .txt2{
 	border:1px solid white;
-	width:300px;
-	height:600px;
+	width: 300px;
+	height:670px;
 	float: right ;
 	padding: 5px ;
 	margin-top: 30px; 
@@ -98,15 +104,27 @@ header{
 }
 
 .calc{
-	padding-right:380px;
-	padding-left:380px;
+	padding-left: 30%;
 	padding-top: 80px;
 	padding-bottom: 30px;
+	border: 0px ;
 	border-radius: 15px 15px 15px 15px;
 	background-color: white ;
 }
-.but{
+button{
+	width: 70px ; 
+	height: 30px;
+}
+.but2{
 	width: 100% ; 
+	height: 30px;
+}
+.but3{
+	width: 100% ; 
+	height: 70px;
+}
+.in {
+	width: 98% ; 
 }
 footer{
 	text-align: center ;
